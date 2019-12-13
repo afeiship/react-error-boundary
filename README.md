@@ -6,11 +6,11 @@
 npm install -S @feizheng/react-error-boundary
 ```
 ## properties
-| property        | type | description |
-| --------------- | ---- | ----------- |
-| className       | -    | -           |
-| value           | -    | -           |
-| onChange        | -    | -           |
+| property  | type     | default | description              |
+| --------- | -------- | ------- | ------------------------ |
+| className | String   | -       | The extended classname   |
+| error     | Function | -       | Error component replacer |
+| onChange  | Function | -       | When error caught        |
 
 ## usage
 1. import css
